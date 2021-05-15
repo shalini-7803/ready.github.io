@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(runforfree.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px  20px;
+    font-family: "roboto",sans-serif;
+    font-size: 15px;
+}
+.main-nav li.action a
+{
+    border: 1px solid #fff;
+}
+.main-nav li a:hover
+{
+    border: 1px solid #fff;
+}
+/*.logo
+{
+    width: 150px;
+    height: auto;
+    float: left;
+    background-color: black;
+}
+*/
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.hope
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.bts
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: darkorange;
+    font-family: "roboto", sans-serif;
+}
+.btw
+{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: rgb(82, 141, 6);
+    font-family: "roboto",sans-serif;
+}
+.btw:hover
+{
+    background-color: orchid;
+    transition: all0.5s ease-in;
+}
